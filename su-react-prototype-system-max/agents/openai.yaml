@@ -1,0 +1,7 @@
+interface:
+  display_name: "Su React Prototype System Max"
+  short_description: "Build and verify Figma-aligned React prototypes"
+  default_prompt: "Use $su-react-prototype-system-max to take the smallest evidence-backed path for this React prototype task, loading advanced guidance only when the scope requires it."
+
+policy:
+  allow_implicit_invocation: false

@@ -114,7 +114,7 @@ After implementation and formatting, run:
 python3 scripts/audit_design_tokens.py path/to/design-token-map.json --root path/to/project
 ```
 
-The audit verifies manifest consistency and declared consumer evidence. It does not prove that Figma access was complete or that every source binding was inventoried. Read [design-token-audit.md](design-token-audit.md) for the schema, claim limits, and error policy.
+The audit verifies manifest consistency and declared consumer evidence. It does not prove that Figma access was complete or that every source binding was inventoried. Return to `SKILL.md` and load the token-audit reference only when a project-local manifest is actually required.
 
 ## Fall Back to Tailwind Defaults
 
