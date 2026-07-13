@@ -1,4 +1,0 @@
-interface:
-  display_name: "Su React Prototype System"
-  short_description: "Build and verify Figma-aligned React prototypes"
-  default_prompt: "Use $react-prototype-system to build, review, or evolve this design as an auditable, responsive React prototype with verified tokens, assets, states, and browser evidence."

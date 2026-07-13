@@ -141,7 +141,7 @@ When the Figma integration provides a stable image or SVG source, including a lo
 
 SVG content must remain SVG unless conversion is explicitly required. Never save SVG XML as `.png`, assume a bundler supports SVG component imports, or rename an asset without updating every code, CSS, markup, manifest, fixture, test, and documentation reference.
 
-Read [figma-assets.md](figma-assets.md) for the required download pipeline, format detection, safe filename repair, SVG integrity checks, import choices, and browser verification.
+If the scoped task actually persists, renames, imports, inlines, or debugs a design asset, return to `SKILL.md` and follow its separate asset condition. Do not load the asset reference for visual inspection alone.
 
 ## Ready-to-Build Gate
 
