@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "kind": "figma",
+    "identifier": "Figma file URL or key and scoped node IDs",
+    "access": "complete",
+    "notes": "Describe any unavailable variables, styles, bindings, or modes."
+  },
+  "theme": {
+    "mechanism": "css-variables",
+    "defaultMode": "light",
+    "modes": [
+      "light"
+    ]
+  },
+  "tokens": [
+    {
+      "sourceName": "Color/Surface/Primary",
+      "category": "color",
+      "semanticName": "surface-primary",
+      "cssVariable": "--color-surface-primary",
+      "utilities": [
+        "bg-surface-primary"
+      ],
+      "values": {
+        "light": "#FFFFFF"
+      },
+      "consumers": [
+        {
+          "file": "src/components/ProductCard.tsx",
+          "property": "background",
+          "usage": "bg-surface-primary"
+        }
+      ]
+    }
+  ],
+  "exceptions": [
+    {
+      "file": "src/components/ProductCard.tsx",
+      "property": "width",
+      "literal": "w-[37px]",
+      "sourceEvidence": "Figma node 123:456 has an unbound width of 37px",
+      "reason": "Unbound one-off composition value"
+    }
+  ]
+}
